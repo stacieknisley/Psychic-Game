@@ -6,6 +6,10 @@
         var guessesSoFar = []; // array to push user choices to
         var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']; //list of letters to choose from
     
+
+     {/* //need to find a onkey button to trigger when a button is pushed  still working on this function // */}
+
+
         document.onkeyup = function(event) {
             var userGuess = String.fromCharCode(event.keyCode).toLowerCase(); //user guess
             var computerGuess = computerChoices[Math.floor(Math.random()*computerChoices.length)]; //random computer selection of letter
