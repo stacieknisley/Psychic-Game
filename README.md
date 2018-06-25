@@ -1,3 +1,5 @@
 # Psychic-Game
 Computer guessing letter game
-Working on the key stroke function. Will work with my tutor on Friday.
+Sect any letter on keyboard and guess the letter I am thinking.
+There are five variables.
+This game uses the document "onkeyup" function event and "If and else" statements to display different letters the user chooses and then calculates the user guesses against the computer guess.

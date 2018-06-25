@@ -3,38 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Psychic-Game</title>
-  <script src="assets/javascript/game.js"></script> -->
+  <script src="assets/javascript/game.js"></script> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="assets/css/style.css">
 </head>
-<body>
+<body style= "background:linear-gradient(to right, rgb(85, 174, 210), rgb(109, 204, 114)) ">
+   
+ <div class="container">
+ <img src="assets/images/letters.png" alt="letters" style="height:100% width:100%";>
 
      <div id="psychicgame">  
     <!-- Name of Game -->
-            <h1> The Psychic Game  </h1> 
+            <h1 style="color:blue;"> The Psychic Letter Game</h1> 
      
     <!-- Instructions for Player -->
-            <h3> Guess what letter I'm thinking of?  </h3> 
+            <h4> Pick a Letter, Any Letter!</h4>
+                    <h4> Guess what letter I'm thinking of? </h4> 
     
     <!-- # of times the user has guessed the letter correctly) -->
-            <p3> Wins:   </p>
-       
+            <p> Wins:   <label id="wins"></label></p>
+               
      <!-- # of times the user has failed to guess the letter correctly after exhausting all guesses -->
-            <p> Losses:    </p>
+           <p> Losses:    <label id="losses"></label></p>
             
      <!-- # of guesses left -->
-            <p> Guesses Left: </p>
+            <p> Guesses Left: <label id="guessesLeft"></label></p>
   
     <!-- the specific letters that the user typed. Display these until the user either wins or loses. -->
-            <p> Your Guesses So Far:  </p>
-
+            <p> Your Guesses So Far: <label id="guessesSoFar"></label></p>
     </div>    
 
-
 <!-- working on getting on key button to work when a keystoke is slected -->
-  
-
-
-
 </body>
 </html>
