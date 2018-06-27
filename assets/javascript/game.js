@@ -7,7 +7,6 @@
 
      /* //need to find a onkey button to trigger when a button is pushed  still working on this function */
 
-
         document.onkeyup = function(event) {
             var userGuess = String.fromCharCode(event.keyCode).toLowerCase(); //user guess
             console.log("User guess" +userGuess);
